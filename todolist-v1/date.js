@@ -11,7 +11,7 @@ function getDate(){
         month : "long"
     }
 
-    let day = day = today.toLocaleDateString("en-US", options);
+    let day = today.toLocaleDateString("en-US", options);
     return day; 
 
 }
